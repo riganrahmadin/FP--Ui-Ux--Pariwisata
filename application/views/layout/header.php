@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,15 @@
     <link rel="stylesheet" href="public/owlcarousel/assets/owl.theme.default.min.css">
     <title><?php echo $title ?></title>
 </head>
+
 <body>
     <nav class="navbar sticky-top navbar-expand-sm navbar-light ">
-          <div class="container-fluid">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">
-            <img src="public/assets/icons/star.svg" alt="">    
-            Hura-Hura
+                <img src="public/assets/icons/star.svg" alt="">
+                Hura-Hura
             </a>
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
@@ -31,11 +32,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">About us</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
                 </ul>
                 <form class="d-flex my-2 my-lg-0">
                     <input class="form-control me-lg-5 me-sm-2" type="text" placeholder="Search for destinations">
                     <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
-      </div>
+        </div>
     </nav>
