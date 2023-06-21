@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="public/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="shortcut icon" href="public/favicon.ico" type="image/x-icon">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <title><?php echo $title ?></title>
 </head>
 <body>
@@ -23,7 +25,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link active" href="<?php echo base_url()?>" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Category</a>

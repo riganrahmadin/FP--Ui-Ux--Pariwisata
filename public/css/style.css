@@ -3,20 +3,16 @@
 * {
   font-family: "Poppins", sans-serif;
 }
-nav{
-    background-color: white;
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
-}
-.navbar-nav{
-    padding: 0 0 0 5.25rem;
+nav {
+  background-color: white;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
 .nav-item {
-    padding: 0 1rem 0 1rem;
-
+  padding: 0 1rem 0 1rem;
 }
 .nav-link {
-    font-weight: 500;
+  font-weight: 500;
 }
 h1 {
   font-size: 30px;
@@ -30,17 +26,26 @@ h1 {
 }
 
 .category-item > img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .icons {
   padding: 0 1em 0 1em;
 }
 
-
+.commentInput {
+  border: 0 !important; 
+  outline: 0 !important;
+  background: transparent !important;
+  border-bottom: 1px solid black !important;
+}
 
 footer {
   width: 100%;
   min-height: 20rem;
   background-color: #87cbb9;
+}
+
+#map {
+  height: 100%;
 }
