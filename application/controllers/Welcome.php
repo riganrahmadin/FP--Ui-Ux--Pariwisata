@@ -28,4 +28,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('home/homeScript.php');
 
 	}
+	public function login()
+	{
+		$data['title'] = 'Login';
+		$this->load->view('layout/header', $data);
+		$this->load->view('login/login.php');
+		$this->load->view('layout/footer');
+	}
 }
