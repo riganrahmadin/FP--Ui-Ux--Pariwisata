@@ -74,6 +74,24 @@ footer {
   background-color: #99ddc9 !important;
   border: none !important;
 }
+
+.btn-secondary {
+  width: 6rem !important;
+  height: 2.75rem !important;
+  color: white !important;
+  font-weight: 600 !important;
+  background-color: #87CBB9 !important;
+  border: none !important;
+}
+
+.btn-secondary:hover {
+
+  color: white !important;
+  font-weight: 600 !important;
+  background-color: #65ab98 !important;
+  border: none !important;
+}
+
 .search_items .card {
   max-width: 50rem !important;
 }

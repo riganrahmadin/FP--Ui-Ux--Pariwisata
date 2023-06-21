@@ -2,48 +2,48 @@
         <div class="container py-5">
             <div class="row pt-5">
                 <div class="col-lg-6 col-sm-12 d-flex">
-                     <img src="public/assets/icons/star.svg" alt="" style="width:30px; height: 30px;">    
+                     <img src="<?php echo base_url()?>public/assets/icons/star.svg" alt="" style="width:30px; height: 30px;">    
                     <h1>Hura - Hura</h1>
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <div class="row py-2">
                         <div class="col">
-                            <img src="public/assets/icons/shape1.svg" alt="">
+                            <img src="<?php echo base_url()?>public/assets/icons/shape1.svg" alt="">
                             <span>Yogyakarta, Indonesia</span>
                         </div>
                     </div>
                     <div class="row py-2">
                         <div class="col">
-                            <img src="public/assets/icons/rounded.svg" alt="">
+                            <img src="<?php echo base_url()?>public/assets/icons/rounded.svg" alt="">
                             (123) 456-7890
                         </div>
                         <div class="col">
-                            <img src="public/assets/icons/rounded.svg" alt="">
+                            <img src="<?php echo base_url()?>public/assets/icons/rounded.svg" alt="">
                             (123) 456-7890
                         </div>
                     </div>
                     <div class="d-flex flex-wrap pt-3"> 
                         <span>Social Media</span>
                             <div class="icons">
-                                <img src="public/assets/icons/facebook.svg" alt="">
+                                <img src="<?php echo base_url()?>public/assets/icons/facebook.svg" alt="">
                             </div>
                             <div class="icons">
-                                <img src="public/assets/icons/facebook.svg" alt="">
+                                <img src="<?php echo base_url()?>public/assets/icons/facebook.svg" alt="">
                             </div>
                             <div class="icons">
-                                <img src="public/assets/icons/facebook.svg" alt="">
+                                <img src="<?php echo base_url()?>public/assets/icons/facebook.svg" alt="">
                             </div>
                             <div class="icons">
-                                <img src="public/assets/icons/facebook.svg" alt="">
+                                <img src="<?php echo base_url()?>public/assets/icons/facebook.svg" alt="">
                             </div>
                             <div class="icons">
-                                <img src="public/assets/icons/facebook.svg" alt="">
+                                <img src="<?php echo base_url()?>public/assets/icons/facebook.svg" alt="">
                             </div>
                             <div class="icons">
-                                <img src="public/assets/icons/facebook.svg" alt="">
+                                <img src="<?php echo base_url()?>public/assets/icons/facebook.svg" alt="">
                             </div>
                             <div class="icons">
-                                <img src="public/assets/icons/facebook.svg" alt="">
+                                <img src="<?php echo base_url()?>public/assets/icons/facebook.svg" alt="">
                             </div>
                         </div>
         </div>  
