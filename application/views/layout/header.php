@@ -35,8 +35,10 @@
                     </li>
                 </ul>
                 <form class="d-flex my-2 my-lg-0">
-                    <input class="form-control me-lg-5 me-sm-2" type="text" placeholder="Search for destinations">
-                    <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                    <input class="form-control me-lg-1 me-sm-2" type="text" placeholder="Search for destinations">
+                    <button class="btn btn-primary me-2" type="submit">Search</button>
+
+                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Login</button>
                 </form>
             </div>
       </div>

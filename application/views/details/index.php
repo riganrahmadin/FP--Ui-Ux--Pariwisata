@@ -33,7 +33,7 @@
         <div class="col-12 py-3">
             <input class="commentInput form-control" type="text" name="comment" id="comment" placeholder="Leave your comment here">
             <div class="float-end py-3">
-                <button class="btn btn-success py-2">Post</button>
+                <button class="btn btn-primary py-2">Post</button>
             </div>
         </div>
     </div>
