@@ -1,5 +1,5 @@
 <div class="container py-5">
-    <div class="row">
+    <div class="row py-5">
     <div class="col-lg-12 col-sm-12">
             <div class="owl-carousel owl-theme">
                 <div class="item">
@@ -14,7 +14,7 @@
             </div>
         </div>  
     </div>
-    <div class="row">
+    <div class="row pb-5">
         <div class="col-lg-6 col-sm-12">
             <h1>Tugu Yogyakarta</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum itaque sequi excepturi, vel magnam nesciunt adipisci! Dolore ea delectus, doloremque aspernatur labore veritatis ab, corrupti repellendus nostrum totam fugiat qui.
@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-    <div class="row-col-12">
+    <div class="row pt-5">
         <div class="col-lg-4 col-sm-12">
             <h1>Leave a comment</h1>
         </div>
@@ -35,6 +35,16 @@
             <div class="float-end py-3">
                 <button class="btn btn-success py-2">Post</button>
             </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 d-flex flex-wrap align-items-center g-3">
+            <img class="img img-fluid img_avatar" src="public/assets/icons/avatar.svg" alt="">
+            <h5 class="ms-3">Anonymous</h5>
+            <span class="ms-3">2 days ago.</span>
+        </div>
+        <div class="col-12 ps-5">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci provident consequatur beatae rem unde. Provident fuga, hic cum, deserunt reiciendis dolorum incidunt harum laborum placeat quae, earum esse labore blanditiis?</p>
         </div>
     </div>
 </div>
