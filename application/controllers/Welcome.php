@@ -16,7 +16,7 @@ class Welcome extends CI_Controller
 		$data['title'] = 'Home';
 		$this->load->view('layout/header', $data);
 		$this->load->view('home/home.php');
-		$this->load->view('layout/footer');
+		$this->load->view('layout/footer.php');
 		$this->load->view('home/homeScript.php');
 	}
 
@@ -60,5 +60,13 @@ class Welcome extends CI_Controller
 		$this->session->sess_destroy();
 		redirect('adminpanel');
 	}
+	
+	public function userlogin()
+	{
+		$data['title'] = 'Login';
+		$this->load->view('layout/header', $data);
+		$this->load->view('login/login.php');
+		$this->load->view('layout/footer.php');
+    }
 	
 }

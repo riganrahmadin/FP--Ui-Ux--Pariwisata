@@ -36,7 +36,12 @@ h1 {
   padding: 0 1em 0 1em;
 }
 
-
+.commentInput {
+  border: 0 !important; 
+  outline: 0 !important;
+  background: transparent !important;
+  border-bottom: 1px solid black !important;
+}
 
 footer {
   width: 100%;
@@ -94,4 +99,96 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+
+   /* login*/
+.login img {
+  width: 624px;
+  height: 417px;
+  left: 435px;
+  top: 273px;
+  background-size: cover;
+}
+
+.login-wrapper {
+  
+  padding-top: 9rem;
+  background: url("assets/Login/17053916_5831236\ 1.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: center;
+  margin-top: 10rem;
+}
+
+.kata{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+
+#button2{
+block-size: 3rem;
+margin-bottom: 1rem;
+background: #B9EDDD;
+border-radius: 8px;
+transition: all .7s;
+}
+
+#button3{
+background: #B9EDDD;
+border-radius: 8px;
+transition: all .7s;
+margin-left: 2.5rem;
+}
+#button3:hover{
+color: teal;
+  background-color: #fff;
+  border-color: teal;
+}
+
+#button2:hover{
+    color: teal;
+  background-color: #fff;
+  border-color: teal;
+}
+
+
+#search1{
+   background-color:gray;
+   
+}
+
+#typeEmailX-2,#typePasswordX-2 {
+    width: 25rem;
+    margin-left: 3rem;
+}
+
+#content{
+    padding-top: 1rem;
+    background: #B9EDDD;
+}
+
+#content2{
+    background-color: #87CBB9 ;
+}
+
+.col-4{
+    padding-top: 10rem;
+}
+
+.gambar{
+    width: 30px;
+height: 30px;
+}
+
+#qq{
+  width: 390px;
+  
+}
+
+#footer1{
+  margin-left: 8rem;
+  margin-top: 4rem;
 }
