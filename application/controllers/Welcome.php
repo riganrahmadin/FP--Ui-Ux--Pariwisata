@@ -61,12 +61,6 @@ class Welcome extends CI_Controller
 		redirect('adminpanel');
 	}
 	
-	public function userlogin()
-	{
-		$data['title'] = 'Login';
-		$this->load->view('layout/header', $data);
-		$this->load->view('login/login.php');
-		$this->load->view('layout/footer.php');
-    }
+	
 	
 }
