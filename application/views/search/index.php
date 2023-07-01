@@ -5,7 +5,7 @@
                 <h1>Search Results</h1>
             </label>
             <div class="d-flex">
-                <input class="form-control type=" text" placeholder="Something">
+                <input class="form-control" type="text" placeholder="Something">
                 <button class="ms-3 btn btn-secondary">Search</button>
             </div>
         </div>
@@ -13,7 +13,7 @@
     <div class="search_items py-5 d-flex flex-column flex-wrap flex-grow-1">
         <div class="card mb-4">
             <div class="row g-0">
-                <div class="col-4">
+                <div class="col-3">
                     <img src="<?php echo base_url() ?>public/assets/tamansari2.jpg" class="search_img img-fluid rounded-start" alt="...">
                 </div>
                 <div class="col-8">

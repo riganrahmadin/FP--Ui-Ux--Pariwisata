@@ -30,7 +30,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="category">
         <div class="containerp py-5">
             <div class>
                 <h1>Categories</h1>

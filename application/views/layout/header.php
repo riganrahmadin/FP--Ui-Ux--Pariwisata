@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar sticky-top navbar-expand-sm navbar-light ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?php echo base_url() ?> ">
                 <img style="padding-left: 1rem;" src="<?php echo base_url() ?>public/assets/icons/star.svg" alt="">
                 <b>Hura-Hura</b>
             </a>
@@ -29,17 +29,17 @@
                         <a class="nav-link active" href="<?php echo base_url() ?>" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Category</a>
+                        <a class="nav-link active" href="#category">Category</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">About us</a>
                     </li>
                 </ul>
-                <form class="d-flex my-2 my-lg-0">
+                <form class="d-flex my-3 my-lg-0">
                     <input class="form-control me-lg-1 me-sm-2" type="text" placeholder="Search for destinations">
-                    <button class="btn btn-secondary me-2" type="submit">Search</button>
+                    <a class="btn btn-secondary me-2" style="padding-top: 9px;" href="<?php echo site_url('search') ?>">Search</a>
 
-                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Login</button>
+                    <a class="btn btn-primary my-2 my-sm-0 " style="padding-top: 9px;" href=" <?php echo site_url('login') ?>" type="submit">Login</a>
                 </form>
             </div>
         </div>
