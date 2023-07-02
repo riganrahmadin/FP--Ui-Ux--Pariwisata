@@ -1,0 +1,966 @@
+.kelolaakun-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.kelolaakun-kelolaakun {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.kelolaakun-logo {
+  gap: 2px;
+  top: 88px;
+  left: 723px;
+  width: 252px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.kelolaakun-star1 {
+  width: 30px;
+  height: 30px;
+}
+.kelolaakun-text {
+  color: var(--dl-color-default-black);
+  height: auto;
+  font-size: 36px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text02 {
+  top: 174px;
+  left: 307px;
+  color: rgba(0, 0, 0, 1);
+  width: 68px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text04 {
+  top: 164px;
+  left: 357.5px;
+  color: rgba(2, 2, 2, 1);
+  width: 205px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text06 {
+  top: 165px;
+  left: 569px;
+  color: rgba(15, 14, 14, 1);
+  width: 243px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text08 {
+  top: 166px;
+  left: 825.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 188px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text10 {
+  top: 162px;
+  left: 1220.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 209px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-line14 {
+  top: 202px;
+  left: 300px;
+  width: 1076px;
+  height: 1px;
+  position: absolute;
+}
+.kelolaakun-iconsbasicdelete {
+  top: 245px;
+  left: 1320.5px;
+  width: 32px;
+  height: 31px;
+  display: flex;
+  opacity: 0.90;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.kelolaakun-icon {
+  top: 5.166666507720947px;
+  left: 0.9310556054115295px;
+  width: 30px;
+  height: 21px;
+  position: absolute;
+}
+.kelolaakun-text12 {
+  top: 228px;
+  left: 313.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 44px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text13 {
+  top: 230px;
+  left: 358px;
+  color: rgba(0, 0, 0, 1);
+  width: 247px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text15 {
+  top: 230px;
+  left: 570px;
+  color: rgba(0, 0, 0, 1);
+  width: 247px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text17 {
+  top: 226px;
+  left: 828.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text19 {
+  top: 163px;
+  left: 1029.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 203px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-iconsbasicpencilcreate {
+  top: 246px;
+  left: 1273.5px;
+  width: 32px;
+  height: 31px;
+  display: flex;
+  opacity: 0.90;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.kelolaakun-icon01 {
+  top: 2.5833332538604736px;
+  left: 2.6666667461395264px;
+  width: 27px;
+  height: 26px;
+  position: absolute;
+}
+.kelolaakun-text21 {
+  top: 226px;
+  left: 1042.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-iconsbasicdelete1 {
+  top: 645px;
+  left: 1320.5px;
+  width: 32px;
+  height: 31px;
+  display: flex;
+  opacity: 0.90;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.kelolaakun-icon02 {
+  top: 5.166666507720947px;
+  left: 0.9310556054115295px;
+  width: 30px;
+  height: 21px;
+  position: absolute;
+}
+.kelolaakun-text23 {
+  top: 628px;
+  left: 313.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 44px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text24 {
+  top: 630px;
+  left: 358px;
+  color: rgba(0, 0, 0, 1);
+  width: 247px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text26 {
+  top: 630px;
+  left: 570px;
+  color: rgba(0, 0, 0, 1);
+  width: 247px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text28 {
+  top: 626px;
+  left: 828.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-iconsbasicpencilcreate1 {
+  top: 646px;
+  left: 1273.5px;
+  width: 32px;
+  height: 31px;
+  display: flex;
+  opacity: 0.90;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.kelolaakun-icon03 {
+  top: 2.5833332538604736px;
+  left: 2.6666667461395264px;
+  width: 27px;
+  height: 26px;
+  position: absolute;
+}
+.kelolaakun-text30 {
+  top: 626px;
+  left: 1042.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-iconsbasicdelete2 {
+  top: 345px;
+  left: 1320.5px;
+  width: 32px;
+  height: 31px;
+  display: flex;
+  opacity: 0.90;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.kelolaakun-icon04 {
+  top: 5.166666507720947px;
+  left: 0.9310556054115295px;
+  width: 30px;
+  height: 21px;
+  position: absolute;
+}
+.kelolaakun-text32 {
+  top: 328px;
+  left: 313.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 44px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text33 {
+  top: 330px;
+  left: 358px;
+  color: rgba(0, 0, 0, 1);
+  width: 247px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text35 {
+  top: 330px;
+  left: 570px;
+  color: rgba(0, 0, 0, 1);
+  width: 247px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text37 {
+  top: 326px;
+  left: 828.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-iconsbasicpencilcreate2 {
+  top: 346px;
+  left: 1273.5px;
+  width: 32px;
+  height: 31px;
+  display: flex;
+  opacity: 0.90;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.kelolaakun-icon05 {
+  top: 2.5833332538604736px;
+  left: 2.6666667461395264px;
+  width: 27px;
+  height: 26px;
+  position: absolute;
+}
+.kelolaakun-text39 {
+  top: 326px;
+  left: 1042.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-iconsbasicdelete3 {
+  top: 445px;
+  left: 1320.5px;
+  width: 32px;
+  height: 31px;
+  display: flex;
+  opacity: 0.90;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.kelolaakun-icon06 {
+  top: 5.166666507720947px;
+  left: 0.9310556054115295px;
+  width: 30px;
+  height: 21px;
+  position: absolute;
+}
+.kelolaakun-text41 {
+  top: 428px;
+  left: 313.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 44px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text42 {
+  top: 430px;
+  left: 358px;
+  color: rgba(0, 0, 0, 1);
+  width: 247px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text44 {
+  top: 430px;
+  left: 570px;
+  color: rgba(0, 0, 0, 1);
+  width: 247px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text46 {
+  top: 426px;
+  left: 828.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-iconsbasicdelete4 {
+  top: 545px;
+  left: 1320.5px;
+  width: 32px;
+  height: 31px;
+  display: flex;
+  opacity: 0.90;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.kelolaakun-icon07 {
+  top: 5.166666507720947px;
+  left: 0.9310556054115295px;
+  width: 30px;
+  height: 21px;
+  position: absolute;
+}
+.kelolaakun-text48 {
+  top: 528px;
+  left: 313.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 44px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text49 {
+  top: 530px;
+  left: 358px;
+  color: rgba(0, 0, 0, 1);
+  width: 247px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text51 {
+  top: 530px;
+  left: 570px;
+  color: rgba(0, 0, 0, 1);
+  width: 247px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text53 {
+  top: 526px;
+  left: 828.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-iconsbasicpencilcreate3 {
+  top: 546px;
+  left: 1273.5px;
+  width: 32px;
+  height: 31px;
+  display: flex;
+  opacity: 0.90;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.kelolaakun-icon08 {
+  top: 2.5833332538604736px;
+  left: 2.6666667461395264px;
+  width: 27px;
+  height: 26px;
+  position: absolute;
+}
+.kelolaakun-text55 {
+  top: 526px;
+  left: 1042.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-iconsbasicpencilcreate4 {
+  top: 446px;
+  left: 1273.5px;
+  width: 32px;
+  height: 31px;
+  display: flex;
+  opacity: 0.90;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.kelolaakun-icon09 {
+  top: 2.5833332538604736px;
+  left: 2.6666667461395264px;
+  width: 27px;
+  height: 26px;
+  position: absolute;
+}
+.kelolaakun-text57 {
+  top: 426px;
+  left: 1042.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-profile {
+  gap: 12px;
+  top: 29px;
+  left: 25px;
+  width: 218px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.kelolaakun-avatar {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background-color: var(--dl-color-neutral-primarypurple);
+}
+.kelolaakun-text59 {
+  top: 11px;
+  color: var(--dl-color-grayshades-background);
+  width: 56px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text61 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.kelolaakun-text62 {
+  color: var(--dl-color-grayshades-darkgray);
+  width: 150px;
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-text64 {
+  color: var(--dl-color-grayshades-darkshade);
+  width: 150px;
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-seach {
+  gap: 10px;
+  top: 129px;
+  left: 25px;
+  width: 218px;
+  height: 56px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-grayshades-lightgray1);
+}
+.kelolaakun-content {
+  gap: 16px;
+  width: 186px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.kelolaakun-icons {
+  width: 24px;
+  height: 24px;
+}
+.kelolaakun-text66 {
+  color: var(--dl-color-light-subtext);
+  width: 146px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-list-item {
+  gap: 24px;
+  top: 229px;
+  left: 25px;
+  width: 218px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.kelolaakun-list-manu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.kelolaakun-list-manu1 {
+  gap: 10px;
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  border-radius: 8px;
+  flex-direction: column;
+}
+.kelolaakun-content1 {
+  gap: 16px;
+  width: 186px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.kelolaakun-icons1 {
+  width: 24px;
+  height: 24px;
+}
+.kelolaakun-text68 {
+  color: var(--dl-color-grayshades-darkgray);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-list-item1 {
+  gap: 24px;
+  top: 329px;
+  left: 25px;
+  width: 218px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.kelolaakun-list-manu2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.kelolaakun-list-manu3 {
+  gap: 10px;
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  border-radius: 8px;
+  flex-direction: column;
+}
+.kelolaakun-content2 {
+  gap: 16px;
+  width: 186px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.kelolaakun-icons2 {
+  width: 24px;
+  height: 24px;
+}
+.kelolaakun-text70 {
+  color: var(--dl-color-grayshades-darkgray);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.kelolaakun-list-manu4 {
+  gap: 10px;
+  top: 429px;
+  left: 25px;
+  width: 218px;
+  display: flex;
+  padding: 16px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 8px;
+  flex-direction: column;
+}
+.kelolaakun-content3 {
+  gap: 16px;
+  width: 186px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.kelolaakun-icons3 {
+  width: 24px;
+  height: 24px;
+}
+.kelolaakun-text72 {
+  color: var(--dl-color-grayshades-darkgray);
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
