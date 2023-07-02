@@ -25,7 +25,7 @@
         <div class="row pt-lg-0 pt-lg-5 pt-sm-5 text-center">
             <div class="col">
                 <div class="bestDestination">
-                    <img class="img img-fluid" src="public/assets/tamansari.png" alt="">
+                    <a href="<?php echo site_url('Details') ?>"><img class="img img-fluid" src="public/assets/tamansari.png" alt=""></a>
                 </div>
             </div>
         </div>
