@@ -24,7 +24,7 @@
 
                                  <!-- Checkbox -->
                                  <div class="form-check d-flex justify-content-end mb-4">
-                                     <p><a class="forgot" href="default.asp">This link changes color</a></p>
+                                     <p><a class="forgot" href="default.asp">Forgot password</a></p>
                                  </div>
                                  <div class="d-grid gap-md-7">
                                      <button class="btn btn-default btn-block" id="button2" type="submit">Login</button>
